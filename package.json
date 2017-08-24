@@ -16,5 +16,17 @@
   "dependencies": {
     "hasha": "^3.0.0",
     "less": "^2.7.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollowdoor/electron_less.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hollowdoor/electron_less/issues"
+  },
+  "homepage": "https://github.com/hollowdoor/electron_less#readme"
 }
