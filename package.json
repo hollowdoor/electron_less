@@ -1,6 +1,6 @@
 {
   "name": "electron-less",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Less CSS in electron",
   "main": "index.js",
   "scripts": {
