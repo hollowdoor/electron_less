@@ -32,7 +32,8 @@ function toLessVars(obj){
 module.exports = function electronLess({
     source,
     id,
-    variables = {}
+    variables = {},
+	paths = []
 } = {}){
 
     if(typeof id !== 'string'){
@@ -64,7 +65,10 @@ module.exports = function electronLess({
 
     let pre = toLessVars(variables);
 
-    return less.render(pre+css)
+    return less.render(pre+css,
+	{
+		paths: paths
+	})
     .then(output=>{
         appendStyles(output.css, id);
         return {

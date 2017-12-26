@@ -22,7 +22,10 @@ eless({
     //that get prefixed to the options.source file text
     variables: {
         color: 'red'
-    }
+    },
+	//options.paths is optional
+	//option.paths specify search paths for @import directives
+	paths: ['.', './lib'],
 }).then(()=>{
     console.log('Styles appended to head element')
 });
