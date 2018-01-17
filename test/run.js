@@ -6,3 +6,8 @@ eless({
         color: 'blue'
     }
 });
+
+eless({
+    source:'city-lights-ui-atom/index.less',
+    paths: ['city-lights-ui-atom/']
+});
